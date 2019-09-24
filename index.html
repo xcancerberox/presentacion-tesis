@@ -1,49 +1,285 @@
 <!doctype html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>reveal.js</title>
+        <title>Tesis</title>
+        <meta name="description"
+            content="Presentacion tesis de grado Joaquin de Andres y Martinez de Arenasa.">
+        <meta name="author" content="Joaquin de Andres y Martinez de Arenasa">
 
-		<link rel="stylesheet" href="css/reset.css">
-		<link rel="stylesheet" href="css/reveal.css">
-		<link rel="stylesheet" href="css/theme/black.css">
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/reveal.css">
+        <link rel="stylesheet" href="css/theme/league.css">
 
-		<!-- Theme used for syntax highlighting of code -->
-		<link rel="stylesheet" href="lib/css/monokai.css">
+        <!-- Theme used for syntax highlighting of code -->
+        <link rel="stylesheet" href="lib/css/monokai.css">
 
-		<!-- Printing and PDF exports -->
-		<script>
-			var link = document.createElement( 'link' );
-			link.rel = 'stylesheet';
-			link.type = 'text/css';
-			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
-			document.getElementsByTagName( 'head' )[0].appendChild( link );
-		</script>
-	</head>
-	<body>
-		<div class="reveal">
-			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
-			</div>
-		</div>
+        <!-- Printing and PDF exports -->
+        <script>
+            var link = document.createElement( 'link' );
+            link.rel = 'stylesheet';
+            link.type = 'text/css';
+            link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+            document.getElementsByTagName( 'head' )[0].appendChild( link );
+        </script>
 
-		<script src="js/reveal.js"></script>
+        <style>
+            .reveal .superscript {
+                top: -0.5em;
+                position: relative;
+                font-style: italic;
+            }
 
-		<script>
-			// More info about config & dependencies:
-			// - https://github.com/hakimel/reveal.js#configuration
-			// - https://github.com/hakimel/reveal.js#dependencies
-			Reveal.initialize({
-				dependencies: [
-					{ src: 'plugin/markdown/marked.js' },
-					{ src: 'plugin/markdown/markdown.js' },
-					{ src: 'plugin/notes/notes.js', async: true },
-					{ src: 'plugin/highlight/highlight.js', async: true }
-				]
-			});
-		</script>
-	</body>
+            .reveal .footer {
+                position: fixed;
+                bottom: 2.0em;
+                font-size: 60%;
+                left: 0.0px;
+                text-align: center;
+                width: 100%;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="reveal">
+            <div class="slides">
+                <section id="home" data-background="images/fiuba-blanco.png" data-background-size="200px" data-background-position="95% 5%">
+                    <h2>Sistema de control</h2>
+                    <h4>distribuido para</h4>
+                    <h3>maquinas caminantes</h3>
+                    <p>
+                        <small>
+                            <a href="mailto:me@xcancerberox.com.ar">Joaquin de Andres y Martinez de Arenasa</a><sup class=superscript>a</sup>,
+                            <a href="mailto:imas@fi.uba.ar">Dr. Ing. Ignacio Mas</a><sup class=superscript>a</sup> y
+                            <a href="mailto:manigstein@fi.uba.ar">Dr. Ing. Mauricio Anigstein</a><sup class=superscript>b</sup>
+                            <p>
+                                <small>
+                                    <sup class=superscript>| a</sup> Laboratorio de Control, Dpto de Electronica,
+                                    Facultad de Ingenieria, Universidad de Buenos Aires;
+                                    <sup class=superscript>| b</sup> Laboratorio de Robotica, Dpto de Mecánica,
+                                    Facultad de Ingenieria, Universidad de Buenos Aires;
+                                </small>
+                            </p>
+                        </small>
+                    </p>
+                    <aside class="notes">
+                        <p>
+                        Buenas tardes. 
+                        Primero que nada gracias por venir. Mi
+                        nombre es Joaquin de Andres y voy a presentar el
+                        trabajo que hice como tesis de grado de la carrera de
+                        ingenieria electronica.
+
+                        El titulo del trabajo es "Sistema de control
+                        distribuido para maquinas caminantes" y a continuacion
+                        vos a explicar de que va la presentacion.
+                        </p>
+                    </aside>
+                </section>
+                <section data-background="images/fiuba-blanco.png" data-background-size="200px" data-background-position="95% 5%" data-transition="slide-in fade-out">
+                    <h2>Presentacion del estudio</h2>
+                    <aside class="notes">
+                        <p>
+                        </p>
+                    </aside>
+                </section>
+                <section data-background="images/fiuba-blanco.png" data-background-size="200px" data-background-position="95% 5%" data-transition="fade-in slide-out">
+                    <h3>Presentacion del estudio</h3>
+                    <div style="position:relative" >
+                        <p class="fragment fade-in" style="position:absolute; margin-left: auto; margin-right: auto; left: 0; right: 0;" data-fragment-index="0">
+                            <img src="images/presentacion_del_estudio_0.png" width="50%" height="50%" style="background:none; border:none; box-shadow:none;">
+                        </p>
+                        <p class="fragment fade-in" style="position:absolute; margin-left: auto; margin-right: auto; left: 0; right: 0;" data-fragment-index="1">
+                            <img src="images/presentacion_del_estudio_1.png" width="50%" height="50%" style="background:none; border:none; box-shadow:none;">
+                        </p>
+                        <p class="fragment fade-in" style="position:absolute; margin-left: auto; margin-right: auto; left: 0; right: 0;" data-fragment-index="2">
+                            <img src="images/presentacion_del_estudio_2.png" width="50%" height="50%" style="background:none; border:none; box-shadow:none;">
+                        </p>
+                        <p class="fragment fade-in" style="position:absolute; margin-left: auto; margin-right: auto; left: 0; right: 0;" data-fragment-index="3">
+                            <img src="images/presentacion_del_estudio_3.png" width="50%" height="50%" style="background:none; border:none; box-shadow:none;">
+                        </p>
+                        <p class="fragment fade-in" style="position:absolute; margin-left: auto; margin-right: auto; left: 0; right: 0;" data-fragment-index="4">
+                            <img src="images/presentacion_del_estudio_4.png" width="50%" height="50%" style="background:none; border:none; box-shadow:none;">
+                        </p>
+                        <p class="fragment fade-in" style="position:absolute; margin-left: auto; margin-right: auto; left: 0; right: 0;" data-fragment-index="5">
+                            <img src="images/presentacion_del_estudio_5.png" width="50%" height="50%" style="background:none; border:none; box-shadow:none;">
+                        </p>
+                    </div>
+                    <aside class="notes">
+                        <p>
+                        </p>
+                    </aside>
+                </section>
+                <section data-background="images/fiuba-blanco.png" data-background-size="200px" data-background-position="95% 5%">
+                    <h3>Grados de libertad</h3>
+                    <p class="fragment fade-in-then-out" style="position:absolute; margin-left: auto; margin-right: auto; left: 0; right: 0;" data-fragment-index="1">
+                        <img src="images/gdl_1.png" width="50%" height="50%" style="background:none; border:none; box-shadow:none;">
+                    </p>
+                    <p class="fragment fade-in-then-out" style="position:absolute; margin-left: auto; margin-right: auto; left: 0; right: 0;" data-fragment-index="2">
+                        <img src="images/gdl_2.png" width="50%" height="50%" style="background:none; border:none; box-shadow:none;">
+                    </p>
+                    <p class="fragment fade-in-then-out" style="position:absolute; margin-left: auto; margin-right: auto; left: 0; right: 0;" data-fragment-index="3">
+                        <img src="images/gdl_3.png" width="50%" height="50%" style="background:none; border:none; box-shadow:none;">
+                    </p>
+                    <div class="fragment fade-in" style="position:absolute; margin-left: auto; margin-right: auto; left: 0; right: 0;" data-fragment-index="4">
+                        <h4>Criterio de Grübler-Kutzbach</h4>
+                        <p>
+                            \[\begin{aligned}
+                            F &amp; = \lambda(n-1)-\sum^{j}_{i=1}c_i
+                            \end{aligned} \]
+                        </p>
+                        <p class="fragment fade-in-then-out" style="position:absolute; margin-left: auto; margin-right: auto; left: 0; right: 0;" data-fragment-index="5">
+                            \[\begin{aligned}
+                            F &amp; : \text{Grados de libertad} \\ 
+                            \lambda &amp; : \text{Grados de libertad del espacio de trabajo} \\
+                            n &amp; : \text{Numero de vinculos} \\
+                            j &amp; : \text{Numero de articulaciones} \\
+                            c_i &amp; : \text{Restricciones de cada articulacion}
+                            \end{aligned} \]
+                        </p>
+                    </div>
+                    <aside class="notes">
+                        <p>
+                        </p>
+                    </aside>
+                </section>
+                <section data-background="images/fiuba-blanco.png" data-background-size="200px" data-background-position="95% 5%">
+                    <h3>Modos de caminar</h3>
+                    <aside class="notes">
+                        <p>
+                        </p>
+                    </aside>
+                </section>
+                <section data-background="images/fiuba-blanco.png" data-background-size="200px" data-background-position="95% 5%">
+                    <h3>Estabilidad</h3>
+                    <aside class="notes">
+                        <p>
+                        </p>
+                    </aside>
+                </section>
+                <section data-background="images/fiuba-blanco.png" data-background-size="200px" data-background-position="95% 5%">
+                    <h3>Generacion de trayectorias</h3>
+                    <aside class="notes">
+                        <p>
+                        </p>
+                    </aside>
+                </section>
+                <section data-background="images/fiuba-blanco.png" data-background-size="200px" data-background-position="95% 5%">
+                    <h3>Cinematica del robot</h3>
+                    <aside class="notes">
+                        <p>
+                        </p>
+                    </aside>
+                </section>
+                <section data-background="images/fiuba-blanco.png" data-background-size="200px" data-background-position="95% 5%" data-transition="slide-in fade-out">
+                    <h2>Realizacion practica</h2>
+                    <aside class="notes">
+                        <p>
+                        </p>
+                    </aside>
+                </section>
+                <section data-background="images/fiuba-blanco.png" data-background-size="200px" data-background-position="95% 5%" data-transition="fade-in slide-out">
+                    <h3>Realizacion practica</h3>
+                    <div style="position:relative" >
+                        <p class="fragment fade-in" style="position:absolute; margin-left: auto; margin-right: auto; left: 0; right: 0;" data-fragment-index="0">
+                            <img src="images/realizacion_practica_0.png" width="50%" height="50%" style="background:none; border:none; box-shadow:none;">
+                        </p>
+                        <p class="fragment fade-in" style="position:absolute; margin-left: auto; margin-right: auto; left: 0; right: 0;" data-fragment-index="1">
+                            <img src="images/realizacion_practica_1.png" width="50%" height="50%" style="background:none; border:none; box-shadow:none;">
+                        </p>
+                        <p class="fragment fade-in" style="position:absolute; margin-left: auto; margin-right: auto; left: 0; right: 0;" data-fragment-index="2">
+                            <img src="images/realizacion_practica_2.png" width="50%" height="50%" style="background:none; border:none; box-shadow:none;">
+                        </p>
+                        <p class="fragment fade-in" style="position:absolute; margin-left: auto; margin-right: auto; left: 0; right: 0;" data-fragment-index="3">
+                            <img src="images/realizacion_practica_3.png" width="50%" height="50%" style="background:none; border:none; box-shadow:none;">
+                        </p>
+                        <p class="fragment fade-in" style="position:absolute; margin-left: auto; margin-right: auto; left: 0; right: 0;" data-fragment-index="4">
+                            <img src="images/realizacion_practica_4.png" width="50%" height="50%" style="background:none; border:none; box-shadow:none;">
+                        </p>
+                        <p class="fragment fade-in" style="position:absolute; margin-left: auto; margin-right: auto; left: 0; right: 0;" data-fragment-index="5">
+                            <img src="images/realizacion_practica_5.png" width="50%" height="50%" style="background:none; border:none; box-shadow:none;">
+                        </p>
+                        <p class="fragment fade-in" style="position:absolute; margin-left: auto; margin-right: auto; left: 0; right: 0;" data-fragment-index="6">
+                            <img src="images/realizacion_practica_6.png" width="50%" height="50%" style="background:none; border:none; box-shadow:none;">
+                        </p>
+                        <p class="fragment fade-in" style="position:absolute; margin-left: auto; margin-right: auto; left: 0; right: 0;" data-fragment-index="7">
+                            <img src="images/realizacion_practica_7.png" width="50%" height="50%" style="background:none; border:none; box-shadow:none;">
+                        </p>
+                    </div>
+                    <aside class="notes">
+                        <p>
+                        </p>
+                    </aside>
+                </section>
+                <section data-background="images/fiuba-blanco.png" data-background-size="200px" data-background-position="95% 5%">
+                    <h3>Mecánica</h3>
+                    <aside class="notes">
+                        <p>
+                        </p>
+                    </aside>
+                </section>
+                <section data-background="images/fiuba-blanco.png" data-background-size="200px" data-background-position="95% 5%">
+                    <h3>Plataforma electrónica</h3>
+                    <aside class="notes">
+                        <p>
+                        </p>
+                    </aside>
+                </section>
+                <section data-background="images/fiuba-blanco.png" data-background-size="200px" data-background-position="95% 5%">
+                    <h3>Sistema de control</h3>
+                    <aside class="notes">
+                        <p>
+                        </p>
+                    </aside>
+                </section>
+                <section data-background="images/fiuba-blanco.png" data-background-size="200px" data-background-position="95% 5%">
+                    <h3>Visualizador</h3>
+                    <aside class="notes">
+                        <p>
+                        </p>
+                    </aside>
+                </section>
+                <section data-background="images/fiuba-blanco.png" data-background-size="200px" data-background-position="95% 5%">
+                    <h3>Sistema embebido</h3>
+                    <aside class="notes">
+                        <p>
+                        </p>
+                    </aside>
+                </section>
+            </div>
+        </div>
+
+        <script src="js/reveal.js"></script>
+
+        <script>
+            // More info about config & dependencies:
+            // - https://github.com/hakimel/reveal.js#configuration
+            // - https://github.com/hakimel/reveal.js#dependencies
+            Reveal.initialize({
+                controls: true,
+                controlsLayout: 'bottom-right',
+                controlsBackArrows: 'faded',
+                progress: true,
+                math: {
+                    // mathjax: 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js',
+                    config: 'TeX-AMS_HTML-full',
+                    TeX: {
+                        Macros: {
+                            R: '\\mathbb{R}',
+                            set: [ '\\left\\{#1 \\; ; \\; #2\\right\\}', 2 ]
+                        }
+                    }
+                },
+                dependencies: [
+                    { src: 'plugin/markdown/marked.js' },
+                    { src: 'plugin/markdown/markdown.js' },
+                    { src: 'plugin/notes/notes.js', async: true },
+                    { src: 'plugin/highlight/highlight.js', async: true },
+                    { src: '../../plugin/math/math.js', async: true }
+                ]
+            });
+        </script>
+    </body>
 </html>
