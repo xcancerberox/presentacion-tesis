@@ -29,8 +29,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.49497475"
-     inkscape:cx="461.50099"
-     inkscape:cy="192.74042"
+     inkscape:cx="32.186161"
+     inkscape:cy="677.61364"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -51,7 +51,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -274,7 +274,7 @@
        sodipodi:nodetypes="cc" />
     <text
        xml:space="preserve"
-       style="display:inline;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
        x="107.08881"
        y="80.666534"
        id="text1247"><tspan
@@ -282,7 +282,7 @@
          id="tspan1245"
          x="107.08881"
          y="80.666534"
-         style="text-align:center;text-anchor:middle;stroke-width:0.26458332">Adaptacion</tspan><tspan
+         style="text-align:center;text-anchor:middle;stroke-width:0.26458332">Adaptación</tspan><tspan
          sodipodi:role="line"
          x="107.08881"
          y="93.895699"
@@ -292,7 +292,7 @@
          x="107.08881"
          y="107.12487"
          style="text-align:center;text-anchor:middle;stroke-width:0.26458332"
-         id="tspan1251">tension</tspan></text>
+         id="tspan1251">tensión</tspan></text>
     <g
        style="display:inline"
        id="g1288">
@@ -450,7 +450,7 @@
          style="stroke-width:0.26458332">USB</tspan></text>
     <text
        xml:space="preserve"
-       style="display:inline;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
        x="74.842712"
        y="244.40666"
        id="text1403"><tspan
@@ -458,6 +458,6 @@
          id="tspan1401"
          x="74.842712"
          y="244.40666"
-         style="stroke-width:0.26458332">Dongle WIFI</tspan></text>
+         style="stroke-width:0.26458332">Dongle WI-FI</tspan></text>
   </g>
 </svg>
